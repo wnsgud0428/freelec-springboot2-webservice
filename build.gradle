@@ -31,8 +31,8 @@ dependencies {
     compile('com.h2database:h2') // jpa
 
     compile('org.springframework.boot:spring-boot-starter-mustache') // 4장
-
     compile('org.springframework.boot:spring-boot-starter-oauth2-client') // 5장
+    compile('org.springframework.session:spring-session-jdbc') // 5.5
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
